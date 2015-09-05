@@ -1,0 +1,137 @@
+/* CSS Document */
+	
+	/*use this order*/
+	/*main styles - width, height, bg, colors, etc*/
+	/*block, clear, floats, etc*/
+	/*padding and margin*/
+	/*border styles*/
+	/*text styles*/
+
+/*content styles*/
+
+#content {
+	/*main styles - width, height, bg, colors, etc*/
+	width: 750px;
+	background-color: #fff;
+	/*padding and margin*/
+	margin-left: auto;
+	margin-right: auto;
+	/*border styles*/
+	border-left: 1px solid #510000;
+	border-right: 1px solid #510000;
+	
+}
+
+#content h1 {
+	/*main styles - width, height, bg, colors, etc*/
+	color: #8f0000;
+	/*padding and margin*/
+	margin: 0 10px;
+	/*border styles*/
+	border-bottom: 2px solid #8f0000;
+	/*text styles - font, size, align, spacing, transform, etc*/
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+#content h2 {
+	/*main styles - width, height, bg, colors, etc*/
+	color: #8f0000;
+	/*padding and margin*/
+	margin: 20px 0 5px 10px;
+	/*text styles - font, size, align, spacing, transform, etc*/
+	font-size: 1em;
+	text-align: left;
+	letter-spacing: 2px;
+	
+}
+
+#content h3 {
+	font-size: 1em;
+	margin: 20px 0 5px 10px;
+	text-align: left;
+	letter-spacing: 2px;
+	color: #8f0000;
+	text-transform: uppercase;
+}
+
+#content h4 {
+	font-size: 1em;
+	margin-left: 10px;
+	text-align: left;
+	letter-spacing: 2px;
+	color: #006;
+}
+
+#content ul {
+	margin-top: 5px;
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+#columns {
+	width: 740px;
+	background-color: #fff;
+}
+
+#column1 {
+	border-right: 1px solid #8f0000;
+	padding-right: 5px;
+	width: 350px;
+	float: left;
+	margin: 5px;
+}
+
+#column2 {
+	width: 350px;
+	float: right;
+	margin: 5px;
+}
+
+/*musical info styles*/
+
+.musinfo {
+	
+}
+
+p.showtitle {
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 1em;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 2px;
+	border-bottom: none;
+	color: #8f0000;
+}
+
+p.copyright {
+	font-family: Georgia;
+	font-size: 9px;
+	font-style: italic;
+	color: #000000;
+}
+
+p.showcredits {
+	padding-left: 5px;
+	font-size: 0.83em;
+	margin: 0;
+	text-transform: none;
+	text-align: left;
+	letter-spacing: 1px;
+	border-bottom: none;
+	color: #8f0000;
+}
+
+.musinfo p {
+	padding: 2px;
+}
+
+/*musExtras styles*/
+
+#musExtras p {
+	padding-left: 10px;
+}

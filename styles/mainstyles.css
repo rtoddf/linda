@@ -1,0 +1,130 @@
+/* CSS Document */
+
+body {
+	/*main styles - color, bg, width, height, etc*/
+	background-color: #510000;
+	/*padding and margin*/
+	padding: 0;
+	margin: 0;
+	/*border styles*/
+	/*text styles*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+#wrapper {
+	/*main styles - color, bg, width, height, etc*/
+	width: 900px;
+	background-image: url(../images/wrapperBg.jpg);
+	background-repeat: repeat-y;
+	/*padding and margin*/
+	margin-left: auto;
+	margin-right: auto;
+	/*border styles*/
+	/*text styles*/
+}
+
+/*header styles*/
+
+#branding {
+	/*main styles - color, bg, width, height, etc*/
+	width: 750px;
+	height: 114px;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*footer styles*/
+
+.footer {
+	/*main styles*/
+	width: 749px;
+	color: #000;
+	background-color: #fff;
+	/*block, clear, floats, etc*/
+	clear: both;
+	/*padding and margin*/
+	padding: 10px 0;
+	margin: 0 auto; 
+	/*border styles*/
+	border-bottom: 1px solid #510000;
+	/*text styles*/
+	font-size: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+/*regular styles*/
+
+p {
+	color: #000;
+	margin: 4px 10px;
+	padding: 4px 0;
+}
+
+a {
+	color: #8f0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.photoRight {
+	float: right;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	border: 2px solid #8f0000;
+}
+
+img {
+	border: 2px solid #8f0000;
+	margin: 4px 8px 4px 4px;
+}
+
+.photoRightNoBorder {
+	float: right;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.photoLeftNoBorder {
+	text-align: left;
+	margin-left: 4px;
+	margin-right: 4px;
+	border-color: white; 
+}
+
+
+.style3 {	color: #000000;
+	font-style: italic;
+}
+
+/*contact form styles*/
+
+table#contactForm textarea, input {
+	font-family: Georgia, "MS Serif", "New York", serif;
+	padding: 2px;
+	font-size: 13px;
+	color: #000;
+	background-color: #F6B900;
+	border: solid 1px #000;
+}
+
+table#contactForm {
+	width: 700px;
+}
+
+table#contactForm td.label {
+	width: 150px;
+}
+
+table#contactForm p {
+	padding: 3px;
+	margin: 3px;
+}
+/*----end----*/
